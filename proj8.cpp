@@ -2,5 +2,9 @@
 using namespace std;
 int main()
 {
-	cout << "First Git Project" << endl;
+	int x;
+	cout << "Enter integer: ";
+	cin >> x;
+	cout << "You entered " << x << endl;
+	return 0;
 }
